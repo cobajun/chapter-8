@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Zen_Kaku_Gothic_New } from "next/font/google";
 import "./globals.css";
-import { Header } from '@/components/Header';
+import { Header } from '@/app/_components/Header';
 
 const zenKaku = Zen_Kaku_Gothic_New({
   weight: ["400", "500"],

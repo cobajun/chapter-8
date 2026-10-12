@@ -1,8 +1,8 @@
 "use client"
 import styles from './ArticleList.module.css';
-import { ArticleMeta } from '@/components/ArticleMeta';
+import { ArticleMeta } from '@/app/_components/ArticleMeta';
 import Link from "next/link";
-import type { Post } from '@/types/posts';
+import type { Post } from '@/app/_types/posts';
 import Image from 'next/image';
 
 type Props = {

@@ -1,7 +1,7 @@
 "use client"
-import { ArticleList } from '@/components/ArticleList'; 
+import { ArticleList } from '@/app/_components/ArticleList'; 
 import { useEffect, useState } from 'react';
-import type { Post } from '@/types/posts';
+import type { Post } from '@/app/_types/posts';
 
 export default function Home() {
   const [posts, setPosts] = useState<Post[]>([]);

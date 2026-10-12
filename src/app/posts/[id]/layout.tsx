@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getPost } from "@/lib/getPost";
+import { getPost } from "@/app/posts/[id]/_lib/getPost";
 
 export async function generateMetadata({ params }: LayoutProps<"/posts/[id]">): Promise<Metadata> {
   const { id } = await params;

@@ -1,10 +1,10 @@
 "use client"
 import styles from './page.module.css';
-import { ArticleMeta } from '@/components/ArticleMeta';
+import { ArticleMeta } from '@/app/_components/ArticleMeta';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import type { Post } from '@/types/posts';
+import type { Post } from '@/app/_types/posts';
 import Image from 'next/image';
 
 export default function ArticleDetail() {

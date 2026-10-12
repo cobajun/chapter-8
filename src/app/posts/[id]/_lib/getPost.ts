@@ -1,4 +1,4 @@
-import type { Post } from '@/types/posts';
+import type { Post } from '@/app/_types/posts';
 
 export const getPost = async (id: string): Promise<Post | null> => {
   try {
